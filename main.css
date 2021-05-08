@@ -149,22 +149,8 @@ button{
     cursor: pointer;
     font-size:2em;
     letter-spacing: 1px;
-    /* transition: ease 3.5s; */
     background-color:var(--button-background);
-    /* animation:display-elements 3s forwards; */
 }
-
-/* .rainyBackground{
-    background-color:var(--hover-for-rainy);
-}
-
-.sunnyBackground{
-    background-color:var(--hover-for-sunny);
-}
-
-.gloomyBackground{
-    background-color:var(--hover-for-gloomy);
-} */
 
 button,
 .counter p,
@@ -298,6 +284,11 @@ button:focus{
     .counter,
     .elapsed{
         margin:25px;
+    }
+
+    .attribution{
+        font-size:16px;
+        bottom:5px;
     }
 }
 
