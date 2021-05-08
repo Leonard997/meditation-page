@@ -239,8 +239,7 @@ button:focus{
 
 .rainy-background,
 .sunny-background,
-.gloomy-background,
-body{
+.gloomy-background{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
