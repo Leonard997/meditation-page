@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- JS -->
+    <script src="app.js" defer></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>MeditationApp</title>
+</head>
+<body>
+    <div class="cont" id="container">
+
+        <!-- <div class="no-distractions"></div> -->
+
+        <div class="cont" id="preloader">
+            <h1>Loading</h1>
+            <h1 class="dot" id="dot-1">.</h1>
+            <h1 class="dot" id="dot-2">.</h1>
+            <h1 class="dot" id="dot-3">.</h1>
+        </div>
+        <div class="c-choose-time">
+            <div class="two-min">
+                <button type="button" class="b-med" id="b-1">2 Minutes</button>
+            </div>
+            <div class="five-min">
+                <button type="button" class="b-med" id="b-2">5 Minutes</button>
+            </div>
+            <div class="ten-min">
+                <button type="button" class="b-med" id="b-3">10 Minutes</button>
+            </div>
+        </div>
+        <div class="c-display-counter">
+            <div class="start">
+                <button type="button" class="b-meditate" id="meditate">Meditate</button>
+            </div>
+            <div class="counter">
+                <p class="minutes"> </p>
+                <p>:</p>
+                <p class="seconds"> </p>
+            </div>
+            <div class="elapsed">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="c-choose-type">
+            <div class="rainy">
+                <button type="button" class="b-med" id="t-1">Rainy</button>
+            </div>
+            <div class="sunny">
+                <button type="button" class="b-med" id="t-2">Sunny</button>
+            </div>
+            <div class="dark">
+                <button type="button" class="b-med" id="t-3">Gloomy</button>
+            </div>
+        </div>
+
+        <div class="attribution">
+            <div id="sunny-attr">
+                <a href="https://www.youtube.com/watch?v=J8unj-Zp2S0&t=244s&ab_channel=LiborioConti">
+                    "Nature Sound Music" by Liborio Conti (Free Royalty Free Music / Creative Commons Music CC-BY)
+                </a>
+            </div>
+            <div id="gloomy-attr">
+                <a href="https://www.youtube.com/watch?v=KOgMDSP-1Zc&ab_channel=MusicLib101-MusicforContentCreators">
+                    Music by Bobby Richards and promoted by MusicLib101
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
