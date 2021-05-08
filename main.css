@@ -293,8 +293,100 @@ button:focus{
     .c-choose-type{
         flex-direction: row;
     }
+
+    .start,
+    .counter,
+    .elapsed{
+        margin:25px;
+    }
 }
 
 @media screen and (max-width:840px){
+    .c-display-counter{
+        grid-column: 1/2;
+        grid-row: 1/2;
 
+        justify-content: flex-end;
+    }
+
+    .c-choose-time{
+        grid-column: 1/2;
+        grid-row: 2/3;
+
+        align-items: flex-end;
+    }
+
+    .c-choose-type{
+        grid-column: 1/2;
+        grid-row: 3/4;
+
+        align-items: flex-start;
+    }
+
+    .five-min,
+    .ten-min,
+    .two-min,
+    .start,
+    .counter,
+    .elapsed,
+    .rainy,
+    .sunny,
+    .dark{
+        margin:25px;
+    }
+}
+
+@media screen and (max-width:700px){
+    button{
+        padding:10px;
+        font-size:30px;
+    }
+
+    .five-min,
+    .ten-min,
+    .two-min,
+    .start,
+    .counter,
+    .elapsed,
+    .rainy,
+    .sunny,
+    .dark{
+        margin:10px;
+    }
+}
+
+@media screen and (max-width:550px){
+    button{
+        font-size:24px;
+    }
+
+
+}
+
+@media screen and (max-width:465px){
+    button{
+        font-size:18px;
+    }
+
+    #meditate{
+        font-size:24px;
+    }
+
+    .elapsed{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:400px){
+    button{
+        font-size:15px;
+    }
+
+    #meditate{
+        font-size:24px;
+    }
+
+    .elapsed{
+        height:35px;
+    }
 }
