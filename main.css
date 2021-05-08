@@ -360,7 +360,9 @@ button:focus{
         font-size:24px;
     }
 
-
+    #preloader h1{
+        font-size:36px;
+    }
 }
 
 @media screen and (max-width:465px){
