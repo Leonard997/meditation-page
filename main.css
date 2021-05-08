@@ -256,7 +256,7 @@ body{
 }
 
 .gloomy-background{
-    background-image:url("/images/gloomy.jpg");
+    background-image:url("images/gloomy.jpg");
 }
 
 .attribution{
