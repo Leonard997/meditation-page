@@ -1,8 +1,3 @@
-// ISSUES :
-//gloomy music is not gloomy
-//attribution functionality isn't implemented yet
-//loading seems clunky
-
 const container = document.getElementById("container");
 const meditateButton = document.getElementById("meditate");
 const counter = document.getElementsByClassName("counter");
