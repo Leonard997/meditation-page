@@ -29,7 +29,7 @@ body{
     height:100%;
     width:100%;
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     background:black;
     color:white;
     font-size: 3.5em;
@@ -61,8 +61,6 @@ body{
         transform: translate(-100%, 0%);
     }
 }
-
-
 
 #dot-1{
     animation:show-first;
@@ -123,7 +121,6 @@ body{
 
 /* Actual page */
 #container{
-    z-index: 1;
     height:100%;
     width:100%;
     /* background:var(--background); */
@@ -140,6 +137,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
 
 button{
